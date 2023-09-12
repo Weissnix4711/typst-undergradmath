@@ -252,6 +252,17 @@ Just type them!
   [$lg$], [`lg`], [$gcd$], [`gcd`], [$lim$], [`lim`],
 ))
 
+#let cosec = math.op("cosec")
+
+If an operator you wish to use does not exist, you can create one using `math.op`. For example, to create the $cosec$ operator:
+
+```
+#let cosec = math.op("cosec")
+$ cosec x = 1/(sin x) $
+```
+
+$ cosec x = 1/(sin x) $
+
 = Other symbols
 #align(center, table(
   columns: 6,
